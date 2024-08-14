@@ -1,2 +1,2 @@
-# -EcodeCamp_Internships
+# EcodeCamp_Internships
 EcodeCamp Internship Tasks List
