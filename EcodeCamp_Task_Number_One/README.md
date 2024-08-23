@@ -58,4 +58,4 @@
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Hamza042/EcodeCamp_Internships.git
-   cd EcodeCamp_Internships/Task1_EDA_Customer_Churn
+   cd EcodeCamp_Internships/EcodeCamp_Task_Number_One
