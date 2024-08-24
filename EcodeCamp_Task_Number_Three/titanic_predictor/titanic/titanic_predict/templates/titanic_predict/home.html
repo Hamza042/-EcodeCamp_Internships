@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Prediction App</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://as1.ftcdn.net/v2/jpg/06/18/63/28/1000_F_618632876_BPIHgFGUzn8Wjy9oMQCFmJYDzUSCMkZK.jpg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+           
+            background-image: url('https://www.shutterstock.com/image-illustration/purple-cylinder-empty-podium-mockup-260nw-2147646207.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            background-attachment: fixed; /* Fix the image in place (optional) */
+            background-color: #f8f9fa; /* Fallback color */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%; /* Adjust the width to fit the container */
+            max-width: 800px; /* Set a maximum width for larger screens */
+            height: 200px; /* Set a fixed height */
+            margin: auto;
+            background-color:white;
+            padding: 10px 20px;
+            border-radius: 40px
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card-title {
+            font-size: 2.5rem;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h1 class="card-title">Welcome to the Titanic Survival Prediction App</h1>
+                        <a href="{% url 'predict_survival' %}" class="btn btn-custom mt-3">Make a Prediction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9jY2BHE3pu/1c28n6grsC48B6roOny6g5mSh0C4E4TQkB3TnTz5" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha384-pPxlL79h4Z7vuBR6s5aopocn4O5Pb3B3F0Fq58U9qT7Pwhi8I7Wl0P0yM0mg4ZRo" crossorigin="anonymous"></script>
+</body>
+</html>
