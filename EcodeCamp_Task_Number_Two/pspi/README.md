@@ -35,33 +35,43 @@ Here's a detailed README.md file for your stock price prediction system project.
 
 
 ### 1. Create a Virtual Environment
-#### python -m venv env
+```bash
+python -m venv env
+```
 
-Windows:
+### Windows:
 ### Activate the Virtual Environment
-#### .\env\Scripts\activate
-
-macOS/Linux:
-### source env/bin/activate
+```bash
+cd env/Scripts/actiavte
+.\env\Scripts\activate
+```
+### macOS/Linux:
+```bash
+source env/bin/activate
+```
 
 ### 2. Install Requirements
 #### Ensure you have a requirements.txt file with the necessary packages. If not, create one:
-#### -> pip freeze > requirements.txt
-
+```bash
+pip freeze > requirements.txt
+```
 ### Install the required packages:
-#### pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. Apply Migrations (Django)
 #### Apply the database migrations for Django:
-
+```bash
 python manage.py makemigrations
 python manage.py migrate
-
+```
 
 ### 4. Run the Application
 #### Start the Django development server:
+```bash
 python manage.py runserver
-
+```
 
 ### Usage
 #### Once the server is running, you can access the application at http://127.0.0.1:8000/. Use the web interface to 
