@@ -80,8 +80,8 @@ python manage.py runserver
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YourUsername/YourRepository.git
-cd YourRepository
+git clone https://github.com/Hamza042/EcodeCamp_Internships.git
+cd EcodeCamp_Internships/EcodeCamp_Task_Number_Two
 
 
 
