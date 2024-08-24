@@ -1,7 +1,8 @@
 # The Web App Predict Stock Prices
 
 ### What is pspi?
-### pspi is django web app abbreviation [ predict stock price information ]
+### pspi is Django Web App 
+Abbreviation [ predict stock price information ]
 
-#### The app all files contain inside the pspi folder.
+#### The App all Files contain inside the pspi Folder.
 
