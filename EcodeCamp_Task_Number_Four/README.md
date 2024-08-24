@@ -37,3 +37,4 @@ Perform customer segmentation using K-Means clustering to group customers based 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Hamza042/EcodeCamp_Internships.git
+   cd EcodeCamp_Internships/EcodeCamp_Task_Number_Four
