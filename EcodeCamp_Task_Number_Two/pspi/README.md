@@ -31,7 +31,7 @@ The goal of this project is to develop a real-time stock price prediction system
 
 ## Setup Instructions
 
-Here's a detailed README.md file for your stock price prediction system project. This file includes instructions on setting up and using the project, as well as an overview of the tools and technologies involved.
+Here's a detailed README.md file for the stock price prediction system project. This file includes instructions on setting up and using the project, as well as an overview of the tools and technologies involved.
 
 
 ### 1. Create a Virtual Environment
@@ -42,7 +42,7 @@ python -m venv env
 ### Windows:
 ### Activate the Virtual Environment
 ```bash
-cd env/Scripts/actiavte
+cd env\Scripts\actiavte
 .\env\Scripts\activate
 ```
 ### macOS/Linux:
